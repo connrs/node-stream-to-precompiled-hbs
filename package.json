@@ -1,0 +1,31 @@
+{
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "name": "stream-to-precompiled-hbs",
+  "description": "Stream a directory to precompiled handlebars array",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connrs/node-stream-to-precompiled-hbs.git"
+  },
+  "main": "lib/stream-to-precompiled-hbs.js",
+  "scripts": {
+    "test": "node_modules/tape/bin/tape test/*.js"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    }
+  ],
+  "author": "connrs",
+  "dependencies": {
+    "lsr": "~1.0.0",
+    "rimy-arse-parapet": "0.0.1"
+  },
+  "devDependencies": {
+    "tape": "~2.1.0",
+    "handlebars": "~1.1.2"
+  }
+}
