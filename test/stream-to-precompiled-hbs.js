@@ -23,3 +23,12 @@ test('Two files', function (t) {
     t.equal(compiled.file_two({ greeting: 'Felicitations' }), 'Felicitations template two\n');
   });
 });
+
+test('One file within subdirectory', function (t) {
+  t.plan(2);
+  var f = stph(handlebars, __dirname + '/files/one-file-within-subdirectory');
+  f.on('data', function (data) {
+    t.equal(data[0], 'subdir_template');
+    t.equal(data[1](), 'This is a template\n');
+  });
+});
