@@ -1,4 +1,4 @@
-# stream-to-precompiled-hbs [![Build Status](https://secure.travis-ci.org/connrs/stream-to-precompiled-hbs.png?branch=master)](http://travis-ci.org/connrs/stream-to-precompiled-hbs)
+# stream-to-precompiled-hbs [![Build Status](https://secure.travis-ci.org/connrs/node-stream-to-precompiled-hbs.png?branch=master)](http://travis-ci.org/connrs/node-stream-to-precompiled-hbs)
 
 ## Getting Started
 Install the module with: `npm install stream-to-precompiled-hbs --save`
